@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Untitled Document</title>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            background-image: url("2.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .login {
+            height: 320px;
+            width: 250px;
+            padding: 50px 30px;
+            background-color: white;
+            margin: 140px auto;
+            border-radius: 20px;
+            box-shadow: 2px 2px 30px rgba(160, 0, 0, 16),
+                -2px -2px 25px rgba(153, 0, 0, 6);
+            font-weight: bolder;
+        }
+
+        .profile {
+            background-image: url("3.jpg");
+            position: absolute;
+            height: 50px;
+            width: 50px;
+            padding: 30px 30px;
+            background-position: center;
+            background-size: cover;
+            margin: -50px 610px;
+            border-radius: 100px;
+            box-shadow: 0px -10px 20px rgba(153, 0, 0, 6);
+            ;
+        }
+
+        .enter {
+            border-style: none;
+            border-bottom-style: double;
+            border-bottom-color: darkgray;
+            color: darkgray;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            padding-right: 75px;
+        }
+
+        .button {
+            background-color: #000033;
+            color: white;
+            padding: 10px 105px;
+            border-radius: 10px;
+            font-weight: bold;
+        }
+
+        .last {
+            color: darkgray;
+            font-size: 14px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="profile">
+
+    </div>
+    <div class="login">
+        <h1 style="text-align: center;">Login</h1>
+        <label>Username</label><br>
+        <input type="text" value="Enter Username" class="enter"><br><br>
+        <label>Password</label><br>
+        <input type="text" value="Enter Password" class="enter"><br><br>
+        <input type="button" value="Login" class="button" />
+        <p class="last">Last your password?</p>
+        <p class="last">Don't have an account?</p>
+    </div>
+
+</body>
+
+</html>
